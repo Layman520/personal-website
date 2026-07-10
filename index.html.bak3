@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="我的个人网站 - 探索科技与设计的交汇点">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">MySite</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#gallery">摄影</a></li>
+                <li><a href="#projects">作品</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <!-- 浮动装饰元素 -->
+        <div class="hero-decoration"></div>
+        <div class="hero-decoration"></div>
+        <div class="hero-decoration"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">创造无限可能</h1>
+                <p class="hero-subtitle">探索科技与设计的交汇点，打造独特的数字体验</p>
+                <div class="hero-buttons">
+                    <a href="#gallery" class="btn btn-primary">浏览摄影 ✨</a>
+                    <a href="#about" class="btn btn-secondary">了解更多</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 滚动指示器 -->
+        <div class="hero-scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-text="关于我">关于我</h2>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <img src="images/avatar.jpg" alt="个人头像">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h3>你好，我是[你的名字]</h3>
+                    <p>我是一名热爱技术与设计的创作者。我相信好的设计不仅仅是外观漂亮，更要能解决实际问题，给用户带来愉悦的体验。</p>
+                    <p>在学习和实践中，我不断探索新的技术和设计理念，努力将创意转化为现实。每一个项目都是一次学习和成长的机会。</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">摄影作品</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">项目经验</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">年学习</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title" data-text="摄影">摄影作品</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item animate-on-scroll">
+                    <img src="images/campus.jpg" alt="校园风光">
+                    <div class="overlay">
+                        <h3>校园风光</h3>
+                        <p>捕捉校园四季变换的美丽瞬间</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="images/library.jpg" alt="图书馆一角">
+                    <div class="overlay">
+                        <h3>图书馆一角</h3>
+                        <p>安静角落里的知识殿堂</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="images/study.jpg" alt="学习时光">
+                    <div class="overlay">
+                        <h3>学习时光</h3>
+                        <p>专注学习的美好时刻</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="images/sunset.jpg" alt="日落黄昏">
+                    <div class="overlay">
+                        <h3>日落黄昏</h3>
+                        <p>夕阳西下的温暖光辉</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="images/minimal.jpg" alt="极简建筑">
+                    <div class="overlay">
+                        <h3>极简建筑</h3>
+                        <p>线条与几何的美学表达</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="images/nature.jpg" alt="自然之美">
+                    <div class="overlay">
+                        <h3>自然之美</h3>
+                        <p>大自然鬼斧神工的杰作</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="images/city.jpg" alt="城市夜景">
+                    <div class="overlay">
+                        <h3>城市夜景</h3>
+                        <p>霓虹闪烁的城市夜晚</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="images/code.jpg" alt="代码世界">
+                    <div class="overlay">
+                        <h3>代码世界</h3>
+                        <p>数字世界的奇妙景观</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-text="作品">项目作品</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="项目1">
+                    </div>
+                    <div class="project-info">
+                        <h3>校园摄影集</h3>
+                        <p>记录校园四季变化与人文风光的摄影作品集</p>
+                        <div class="tags">
+                            <span class="tag">摄影</span>
+                            <span class="tag">设计</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="项目2">
+                    </div>
+                    <div class="project-info">
+                        <h3>个人作品集网站</h3>
+                        <p>基于 Web 技术的个人作品集网站</p>
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="项目3">
+                    </div>
+                    <div class="project-info">
+                        <h3>校园活动组织</h3>
+                        <p>参与组织和策划多项校园文化活动</p>
+                        <div class="tags">
+                            <span class="tag">组织</span>
+                            <span class="tag">协作</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-text="联系">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <h3>期待与你交流</h3>
+                    <p>无论是摄影合作、项目讨论还是日常交流，都欢迎随时联系我。</p>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            <span class="icon">📧</span>
+                            <span>your.email@example.com</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span class="icon">💬</span>
+                            <span>your_wechat_id</span>
+                        </a>
+                        <a href="https://github.com/yourusername" target="_blank" class="contact-link">
+                            <span class="icon">🐙</span>
+                            <span>github.com/yourusername</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form animate-on-scroll" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" name="name" placeholder="你的名字" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言</label>
+                        <textarea id="message" name="message" rows="5" placeholder="写下你想说的话..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">发送消息 🚀</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MySite. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
